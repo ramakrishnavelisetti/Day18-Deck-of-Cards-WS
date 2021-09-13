@@ -1,10 +1,11 @@
-package com.bdlz.DeckC;
+package com.bdlz.deckc;
 
 public class DeckOfCardsMain {
     public static void main(String[] args) {
-        PlayCards cardsPlay = new PlayCards();
-        cardsPlay.uniqueCards();
+        PlayCards playCards = new PlayCards();
+        playCards.initializeCards();
         Players players = new Players();
         players.addPlayers();
+        players.playerSequence();
     }
 }
