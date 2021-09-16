@@ -11,7 +11,7 @@ public class Players {
         playerCount = sc.nextInt();
         if(playerCount >= 2 && playerCount <= 4){
             System.out.println("No.of Players are : " + playerCount);
-        }else{
+        } else{
             System.out.println("Invalid input Enter between 2 to 4 ");
             addPlayers();
         }
